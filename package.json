@@ -1,7 +1,7 @@
 {
   "name": "hg-custom-components",
   "private": false,
-  "version": "0.0.1-rc4",
+  "version": "0.1.0",
   "type": "module",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -75,6 +75,5 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },
-  "readme": "ERROR: No README data found!",
-  "_id": "my-storybook@0.0.0"
+  "readme": "ERROR: No README data found!"
 }
