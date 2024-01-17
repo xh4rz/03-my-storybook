@@ -15,7 +15,7 @@
   "license": "MIT",
   "homepage": "https://...",
   "repository": {
-    "url": "https://TODO...",
+    "url": "https://github.com/xh4rz/03-my-storybook",
     "type": "git"
   },
   "files": [
@@ -39,7 +39,8 @@
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_3bf278355165fa7",
     "clean": "rimraf dist/",
-    "copyfiles": "copyfiles -u 1 src/**/*.css dist/"
+    "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
+    "push:npm": "np"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.7",
@@ -62,6 +63,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-storybook": "^0.6.15",
+    "np": "^9.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rimraf": "^5.0.5",
